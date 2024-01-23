@@ -9,7 +9,8 @@ export default defineConfig({
     eslint({
       overrideConfig: {
         rules: {
-          "no-unused-vars": "warn",
+          "no-unused-vars": "off",
+          "react/prop-types": "off",
         },
       },
     }),
