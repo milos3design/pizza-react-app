@@ -13,6 +13,8 @@ import Order, { loader as orderLoader } from "./features/order/Order";
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
+    errorElement: <Error />,
+
     children: [
       { path: "/", element: <Home /> },
       {
