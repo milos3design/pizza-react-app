@@ -2,4 +2,4 @@
 
 ## The Ultimate React Course Project
 
-Pizza ordering app creatred React + Vite.
+Pizza ordering app creatred with React + Vite.
